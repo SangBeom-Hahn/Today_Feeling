@@ -46,11 +46,31 @@ Today_Feeling
 └── docker-compose.yaml
 ```
 
-- Android : 안드로
-- DB : 어플리케이션 루트 폴더
-- Flask_server : 카테고리별 채색 모델 적재 폴더
-- Test : 웹페이지 구성에 필요한 리소스를 모아놓은 폴더
+- Android : 안드로이드 root 프로젝트 폴더(: 최종 release.zip)
+- DB : AWS DB 접속 폴더
+- Flask_server : 서버 구현 폴더
+- Test : 테스트 서버 배포 폴더
 - Web : 웹페이지 템플릿 폴더
-- models : 라우팅 함수 구현 폴더
-- docker-compose-main.yaml : 이미지 pair 구성 코드
-- docker-compose.yaml : inference 코드
+- models : 모델 폴더
+- docker-compose-main.yaml : 정식 서버 도커 컴포즈 파일
+- docker-compose.yaml : 테스트 서버 도커 컴포즈 파일
+
+## Getting started
+- Download release.zip on Mobile Phone
+
+## reference
+- [Kaggle: FER Competition](https://www.kaggle.com/code/ashishpatel26/tutorial-facial-expression-classification-keras/notebook)
+- [Face-alignment: How far are we from solving the 2D & 3D Face Alignment problem? (and a
+dataset of 230,000 3D facial landmarks)
+](https://arxiv.org/pdf/1703.07332.pdf)
+- [facial-expression-recognition-using-cnn](https://github.com/amineHorseman/facial-expression-recognition-using-cnn)
+- [Affect Expression Behaviour Analysis in the Wild using Spatio-Channel Attention and Complementary Context Information](https://paperswithcode.com/paper/affect-expression-behaviour-analysis-in-the)
+
+
+## Author
+
+👤 **SangBoem-Hahn**
+
+- Github: [@SangBoem-Hahn](https://github.com/SangBeom-Hahn)
+- Blog : [Tistory(Feeling_Manager)](https://hsb422.tistory.com/entry/%E3%85%81%EA%B0%90%EC%A0%95%EC%9D%B8%EC%8B%9D%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%85%B8%EB%9E%98-%EC%B6%94%EC%B2%9C-%EC%84%9C%EB%B9%84%EC%8A%A4)
+---
