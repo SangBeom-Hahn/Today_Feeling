@@ -23,7 +23,7 @@
 출처 : https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=82
 
 ## Model
-![model](https://github.com/SangBeom-Hahn/Sketch2Fashion/blob/main/assests/model.png)
+![model](https://github.com/SangBeom-Hahn/Today_Feeling/blob/main/assests/model.PNG)
 
 전체적인 파이프라인은 Face Detection과 Emotion Recognition으로 진행된다. 얼굴 탐지에서 전체 이미지에서 얼굴만 crop한다. 카메라 앵글로 얼굴만 입력되는 것이 아니기 떄문에 영상이 프레임 단위로 들어가면 얼굴만 추출해야한다. 
 
@@ -32,7 +32,7 @@
 ※ 감정 리스트 : {anger, fear, happiness, sadness, surprise, neutral}
 
 ## Project Structure
-![Structure](https://github.com/SangBeom-Hahn/Sketch2Fashion/blob/main/assests/model.png)
+![Structure](https://github.com/SangBeom-Hahn/Today_Feeling/blob/main/assests/structure.png)
 
 ```
 Today_Feeling
