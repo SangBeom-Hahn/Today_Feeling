@@ -32,7 +32,7 @@
 ※ 감정 리스트 : {anger, fear, happiness, sadness, surprise, neutral}
 
 ## Project Structure
-![Structure](https://github.com/SangBeom-Hahn/Today_Feeling/blob/main/assests/structure.png)
+![Structure](https://github.com/SangBeom-Hahn/Today_Feeling/blob/main/assests/struct.png)
 
 ```
 Today_Feeling
