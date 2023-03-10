@@ -7,6 +7,15 @@
 
 ## ✨ Demo
 
+### emotion recognition
+<p align ="center">
+  <img src = "https://user-images.githubusercontent.com/90328527/224226104-af4303c1-e0cc-4080-ad85-6b83f278244a.gif">
+</p>
+
+### music recommend
+<p align ="center">
+  <img src = "https://user-images.githubusercontent.com/90328527/224226181-d7a7eaea-f0d0-43fb-82b6-2be2779d787e.gif">
+</p>
 
 ## Dataset
 |Data|데이터 수|Train 데이터 수|Val 데이터 수|세부사항|
@@ -65,6 +74,12 @@ dataset of 230,000 3D facial landmarks)
 ](https://arxiv.org/pdf/1703.07332.pdf)
 - [facial-expression-recognition-using-cnn](https://github.com/amineHorseman/facial-expression-recognition-using-cnn)
 - [Affect Expression Behaviour Analysis in the Wild using Spatio-Channel Attention and Complementary Context Information](https://paperswithcode.com/paper/affect-expression-behaviour-analysis-in-the)
+
+## Feedback
+- 속도가 느리더라도 완전 정확도에 초점을 맞춘 모델을 사용해도 될 것이다.
+- 사용자 트래픽을 고려하여 모델을 프론트에 적재한 것이 인상 깊었다.
+- few shot 러닝으로 지문 인식처럼 사용자마다 다른 감정을 정확하게 인식하는 방법이 있는데 이에 대해 고민해보면 좋을 것 같다.
+
 
 
 ## Author
