@@ -17,29 +17,6 @@
   <img src = "https://user-images.githubusercontent.com/90328527/224226181-d7a7eaea-f0d0-43fb-82b6-2be2779d787e.gif">
 </p>
 
-## Dataset
-|Data|데이터 수|Train 데이터 수|Val 데이터 수|세부사항|
-|:-:|:-:|:-:|:-:|:-:|
-|1|7853|7199|654|anger|
-|2|6952|6275|677|fear|
-|3|7624|6967|657|happiness|
-|4|7191|6540|651|neutral|
-|5|7499|6833|666|sadness|
-|6|6988|6354|634|surprise|
-
-학습에는 aihub의 한국인 감정 인식데이터 데이터 셋을 활용, 카테고리 별로 약 7000개로 구성된다.
-
-출처 : https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=82
-
-## Model
-![model](https://github.com/SangBeom-Hahn/Today_Feeling/blob/main/assests/model.PNG)
-
-전체적인 파이프라인은 Face Detection과 Emotion Recognition으로 진행된다. 얼굴 탐지에서 전체 이미지에서 얼굴만 crop한다. 카메라 앵글로 얼굴만 입력되는 것이 아니기 떄문에 영상이 프레임 단위로 들어가면 얼굴만 추출해야한다. 
-
-얼굴을 탐지하였으면 감정 인식을 진행한다. 모델은 얼굴에서 34개의 Landmark를 추출하여 감정 인식의 정확도를 높힌다. 결과적으로 모델에 영상을 넣으면 감정을 인덱스로 추출한다.
-
-※ 감정 리스트 : {anger, fear, happiness, sadness, surprise, neutral}
-
 ## Project Structure
 ![Structure](https://github.com/SangBeom-Hahn/Today_Feeling/blob/main/assests/struct.png)
 
@@ -64,6 +41,17 @@ Today_Feeling
 - docker-compose-main.yaml : 정식 서버 도커 컴포즈 파일
 - docker-compose.yaml : 테스트 서버 도커 컴포즈 파일
 
+## Features
+1. 로그인
+    - consolelog 기능
+2. 회원가입
+3. 노래 관련
+    - 관심 노래 목록 선택 및 변경
+    - 노래 추천 및 중지
+4. 기분 관련
+    - 현재 기분 선택
+    - 기분 통계 확인
+
 ## Getting started
 - Download release.zip on Mobile Phone
 
@@ -76,9 +64,8 @@ dataset of 230,000 3D facial landmarks)
 - [Affect Expression Behaviour Analysis in the Wild using Spatio-Channel Attention and Complementary Context Information](https://paperswithcode.com/paper/affect-expression-behaviour-analysis-in-the)
 
 ## Feedback
-- 속도가 느리더라도 완전 정확도에 초점을 맞춘 모델을 사용해도 될 것이다.
-- 사용자 트래픽을 고려하여 모델을 프론트에 적재한 것이 인상 깊었다.
-- few shot 러닝으로 지문 인식처럼 사용자마다 다른 감정을 정확하게 인식하는 방법이 있는데 이에 대해 고민해보면 좋을 것 같다.
+- 사용자마다 핸드폰과 웹 캠 거치하는 위치가 다르니 앱 시작 시 메뉴얼을 제공했으면 좋겠다.
+- 서버단에서 사용자 트래픽을 고려하여 모델을 프론트에 적재한 것이 인상 깊었다.
 
 
 
