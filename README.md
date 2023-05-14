@@ -74,5 +74,5 @@ dataset of 230,000 3D facial landmarks)
 👤 **SangBoem-Hahn**
 
 - Github: [@SangBoem-Hahn](https://github.com/SangBeom-Hahn)
-- Blog : [Tistory(Feeling_Manager)](https://hsb422.tistory.com/entry/%E3%85%81%EA%B0%90%EC%A0%95%EC%9D%B8%EC%8B%9D%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%85%B8%EB%9E%98-%EC%B6%94%EC%B2%9C-%EC%84%9C%EB%B9%84%EC%8A%A4)
+- Blog : [Tistory(Feeling_Manager)](https://hsb422.tistory.com/entry/%EA%B0%90%EC%A0%95%EC%9D%B8%EC%8B%9D%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%85%B8%EB%9E%98-%EC%B6%94%EC%B2%9C-%EC%84%9C%EB%B9%84%EC%8A%A4)
 ---
